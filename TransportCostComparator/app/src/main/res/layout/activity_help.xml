@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvHelpTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvHelpMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If calculations appear incorrect:\n\nVerify all input values.\n\nEnsure a travel date has been selected.\n\nConfirm that distance and cost are numeric values.\n\nSave the calculation before viewing reports."
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnExitHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+
+    </LinearLayout>
+</ScrollView>

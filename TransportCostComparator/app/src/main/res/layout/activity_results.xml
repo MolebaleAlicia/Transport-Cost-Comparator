@@ -1,0 +1,88 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:padding = "24dp">
+
+        <TextView
+            android:id="@+id/tvTransportType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transport Type: -"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id = "@+id/tvModeOfTransport"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Mode of Transport: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "12dp" />
+
+        <TextView
+            android:id = "@+id/tvDailyCost"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Daily Transport Cost: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "12dp" />
+
+        <TextView
+            android:id = "@+id/tvMonthlyCost"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Monthly Transport Cost: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "12dp" />
+
+        <TextView
+            android:id = "@+id/tvMonthlyDistance"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Monthly Distance Travelled: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "12dp" />
+
+        <TextView
+            android:id = "@+id/tvCostCategory"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Transport Cost Category: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "12dp" />
+
+        <TextView
+            android:id = "@+id/tvRecommendation"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Recommendation: -"
+            android:textSize = "16sp"
+            android:layout_marginBottom = "24dp" />
+
+        <Button
+            android:id = "@+id/btnCalculateAgain"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Calculate Again"
+            android:layout_marginBottom = "12dp" />
+        <Button
+            android:id = "@+id/btnReturnHome"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Return to Home"
+            android:layout_marginBottom = "12dp" />
+
+        <Button
+            android:id = "@+id/btnExitResults"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Exit" />
+
+    </LinearLayout>
+</ScrollView>

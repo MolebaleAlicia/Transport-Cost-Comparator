@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:padding = "24dp">
+
+        <EditText
+            android:id = "@+id/etModeOfTransport"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:hint = "Mode of Transport"
+            android:inputType = "text"
+            android:layout_marginBottom = "12dp" />
+
+        <EditText
+            android:id = "@+id/etDistancePerDay"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:hint = "Distance Travelled per Day (km)"
+            android:inputType = "numberDecimal"
+            android:layout_marginBottom = "12dp" />
+
+        <EditText
+            android:id = "@+id/etCostPerKm"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:hint = "Cost per Kilometre (R/km)"
+            android:inputType = "numberDecimal"
+            android:layout_marginBottom = "12dp" />
+
+        <DatePicker
+            android:id = "@+id/dpTravelDays"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginBottom = "12dp" />
+
+        <Spinner
+            android:id = "@+id/spinnerTransportType"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:entries = "@array/transport_types"
+            android:layout_marginBottom = "24dp" />
+
+        <Button
+            android:id = "@+id/btnCalculateSave"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Calculate &amp; Save"
+            android:layout_marginBottom = "12dp" />
+
+        <Button
+            android:id = "@+id/btnClear"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:text = "Clear" />
+
+    </LinearLayout>
+</ScrollView>
